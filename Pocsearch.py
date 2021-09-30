@@ -37,7 +37,7 @@ def monitor(year,cve):
         sys.exit()
 
 def main():
-    parser = argparse.ArgumentParser(description='Bilibillitrans Help')
+    parser = argparse.ArgumentParser(description='PocSearch Help')
     parser.add_argument('-y','--year',help='cve-year',default='')
     parser.add_argument('-c','--cve',help='cve',default='')
     args = parser.parse_args()
